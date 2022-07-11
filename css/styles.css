@@ -526,7 +526,12 @@
  }
 
 
-
+.imgs{
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+   0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
 
 
 /* team cards icons */
@@ -535,6 +540,7 @@
 
 .add-team {
    width: 206px;
+   justify-content: center;
    
 
 }
@@ -544,9 +550,7 @@
    width: 206px;
    height: 44px;
   
-   
 }
-
 
 .list-item-team {
    width: 44px;
@@ -562,23 +566,27 @@
 
    width: 20px;
    height: 20px;}
+   
 
 .box-item-team {
    display: flex;
    padding: 12px;
    border-radius: 50%;
-   fill: #AFB1B8;
+   fill:rgb(175, 177,184);
+  
 }
 
 .icon-team:hover{
-   background-color: #2196F3;}
+   fill: rgb(175, 177, 184);
+   fill: var(--passive-color-button);
+}
 
 .box-item-team:hover,
 .box-item-team:focus {
+   
    background-color: var(--accent-color);
  
 }
-
 
 
 
