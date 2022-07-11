@@ -504,6 +504,7 @@
         letter-spacing: 0.03em;
         margin: 0px;
         margin-top: 10px;
+        padding-bottom: 16px;
        
     }
 
@@ -519,19 +520,14 @@
     padding-top: 30px;
     padding-bottom: 30px;
     border-bottom: 1px solid #ECECEC;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
  }
 
-
-.imgs{
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-   0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-    
-}
+ .team-cards {
+   
+   width: 270px;
+   height: 168px;
+ }
 
 
 /* team cards icons */
@@ -540,16 +536,16 @@
 
 .add-team {
    width: 206px;
-   justify-content: center;
-   
+   margin: auto;
 
 }
 
 .add-list-team {
-   display: flex;
+   
    width: 206px;
    height: 44px;
-  
+   
+   
 }
 
 .list-item-team {
@@ -558,43 +554,97 @@
   
 }
 
+.icon-team {
+
+   width: 20px;
+   height: 20px;
+}
+
 .list-item-team:not(.list-item-team:last-child) {
    margin-right: 10px;
 }
 
-.icon-team {
-
-   width: 20px;
-   height: 20px;}
-   
 
 .box-item-team {
    display: flex;
    padding: 12px;
    border-radius: 50%;
+
    fill:rgb(175, 177,184);
   
 }
 
-.icon-team:hover{
-   fill: rgb(175, 177, 184);
-   fill: var(--passive-color-button);
-}
-
 .box-item-team:hover,
 .box-item-team:focus {
-   
+   fill: #FFFFFF;
    background-color: var(--accent-color);
  
 }
+
+.full-card-team{
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+      0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
 
 
 
                /* Our-clients */
 
 
- .our-clients
+ .clients .list{
+   display: flex;
+   margin: auto;
+       
+ }              
+
+
+ .clients-link{
+   fill: #AFB1B8;
+   cursor: pointer;
+   display: flex;
+     
+ }
+
+
  
+ .clients-link:hover,
+ .clients-link:focus{
+   
+   fill: #2196F3;
+
+ }
+
+ .clients-link{
+   align-items: center;
+      display: flex;
+      height: 92px;
+      border: 1px solid rgba(175, 177, 184, 1);
+      border-radius: 4px;
+ }
+
+
+ .clients-pic{
+   
+   height: 60px;
+   width: 170px;
+
+ }
+
+
+ .clients-link:hover{
+   border: 1px solid #2196F3;
+ }
+
+
 
 
 
